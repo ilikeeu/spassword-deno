@@ -1,2 +1,27 @@
-# spassword-deno
-deno部署密码管理器
+- 现在你可以通过以下方式设置环境变量：
+- Fork本项目到你的仓库，然后deno
+
+2. **在Deno添加环境变量**：
+创建一个 `.env` 文件：
+```env
+DENO_KV_URL=https://api.deno.com/databases/xxxxxxxxxxxxxxxx/connect
+OAUTH_BASE_URL=your_oauth_base_url
+OAUTH_CLIENT_ID=your_client_id
+OAUTH_CLIENT_SECRET=your_client_secret
+OAUTH_REDIRECT_URI=[your_redirect_uri](https://spss.deno.dev/api/oauth/callback)
+OAUTH_ID=your_authorized_user_id
+```
+
+然后运行：
+```bash
+deno run --allow-net --allow-env --allow-read main.ts
+```
+
+主要改进：
+
+1. **环境变量配置**：将 KV URL 作为环境变量 `DENO_KV_URL`，如果未设置则使用默认值
+2. **错误处理**：如果远程 KV 连接失败，会自动尝试使用本地 KV
+3. **连接日志**：显示正在连接的 KV URL，便于调试
+4. **灵活配置**：可以通过环境变量轻松更改 KV 连接地址
+
+这样你就可以灵活地配置 KV 连接地址，而不需要硬编码在代码中。
