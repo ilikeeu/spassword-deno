@@ -7,7 +7,7 @@ OAUTH_BASE_URL=https://connect.linux.do
 OAUTH_CLIENT_ID=connect.linux.do申请到的your_client_id
 OAUTH_CLIENT_SECRET=connect.linux.do申请到的your_client_secret
 OAUTH_REDIRECT_URI=https://修改为你的.deno.dev/api/oauth/callback
-OAUTH_ID=your_authorized_user_id
+OAUTH_ID=your_authorized_user_id（可选）
 ```
 
 
