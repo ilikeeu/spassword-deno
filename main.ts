@@ -3448,7 +3448,7 @@ function getHTML5(): string {
             
             <!-- GitHub 开源仓库链接 -->
             <div class="github-link">
-                <a href="https://github.com/ilikeeu/spassword" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/ilikeeu/spassword-deno" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-github"></i>
                     Spassword - 你的私人密码管家
                 </a>
