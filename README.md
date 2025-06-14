@@ -4,7 +4,7 @@
 2. **在Deno添加环境变量**：
 在控制台点击KV获取连接，然后填入变量DENO_KV_URL
 ```env
-DENO_KV_URL=https://api.deno.com/databases/xxxxxxxxxxxxxxxx/connect
+DENOS_KV_URL=https://api.deno.com/databases/xxxxxxxxxxxxxxxx/connect
 OAUTH_BASE_URL=https://connect.linux.do
 OAUTH_CLIENT_ID=connect.linux.do申请到的your_client_id
 OAUTH_CLIENT_SECRET=connect.linux.do申请到的your_client_secret
