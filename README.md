@@ -13,3 +13,4 @@ OAUTH_ID=your_authorized_user_id
 ```
 
 
+油猴脚本去这里下载：https://github.com/ilikeeu/spassword
